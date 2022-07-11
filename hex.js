@@ -15,3 +15,8 @@ btn.addEventListener('click', () => {
     document.body.style.backgroundColor = hexColor;
 })
 
+let toUpper = document.getElementById('test').textContent;
+
+document.getElementById('test').textContent = toUpper.toUpperCase();
+
+
