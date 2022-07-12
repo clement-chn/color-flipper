@@ -13,6 +13,9 @@ btn.addEventListener('click', () => {
     console.log('Chiffre dans le tableau: ' + randomNumber);
     document.body.style.backgroundColor = colors[randomNumber];
     color.textContent = colors[randomNumber]; 
-
 });
+
+let toUpper = document.getElementById('test').textContent;
+
+document.getElementById('test').textContent = toUpper.toUpperCase();
 
